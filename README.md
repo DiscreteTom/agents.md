@@ -7,7 +7,7 @@ Global rules for AI agents, inspired by https://github.com/openai/agents.md.
 - [`AGENTS.md`](AGENTS.md) contains my personal preferences and rules
 - [`AGENTS.min.md`](AGENTS.min.md) is a minimal template for everyone to repeat this practice
 
-Include `~/agents.md/AGENTS.md` to your agent (e.g. Cursor) default context to use this global rule.
+Include `~/agents.md/AGENTS.md` to your agent default context to use this global rule.
 
 To create your own:
 1. Fork this repo
