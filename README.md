@@ -5,7 +5,7 @@ Global rules for AI agents, inspired by https://github.com/openai/agents.md.
 ## Usage
 
 - [`AGENTS.md`](AGENTS.md) contains my personal preferences and rules
-- [`AGENTS.min.md`](AGENTS.min.md) is a minimal template for everyone to repeat this practice: create an agents.md repo in their GitHub account and manage personal preferences
+- [`AGENTS.min.md`](AGENTS.min.md) is a minimal template for everyone to repeat this practice
 
 Include `~/agents.md/AGENTS.md` to your agent (e.g. Cursor) default context to use this global rule.
 
@@ -17,5 +17,5 @@ To create your own:
 Examples:
 - `remember: never commit without my explicit approval`
 - `remember: always use TypeScript for new projects`
-- `remember: prefer functional programming patterns`
-- `remember: include error handling in all API calls`
+- `remember globally: MUST use conventional commit format`
+- `remember globally: MUST include error handling in all API calls`
