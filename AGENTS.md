@@ -5,3 +5,4 @@
 - MUST NOT git commit unless user explicitly asks
 - When committing changes, MUST use conventional commit format
 - MUST use ripgrep for multi-file searches instead of grep/find, unless ripgrep cannot perform the task
+- MUST NOT start any dev server
