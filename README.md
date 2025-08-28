@@ -1,6 +1,6 @@
-# agents.md
+# AGENTS.md
 
-This project is a practice of https://github.com/openai/agents.md but using global rules instead of workspace level rules.
+Global rules for AI agents, inspired by https://github.com/openai/agents.md.
 
 ## Usage
 
@@ -9,4 +9,13 @@ This project is a practice of https://github.com/openai/agents.md but using glob
 
 Include `~/agents.md/AGENTS.md` to your agent (e.g. Cursor) default context to use this global rule.
 
-Use 'remember xxx' to ask the agent to modify the content of the agents.md.
+To create your own:
+1. Fork this repo
+2. Copy `AGENTS.min.md` to `AGENTS.md` (overwrite existing)
+3. Use `remember <preference>` to ask your agent to modify `AGENTS.md` with your preferences
+
+Examples:
+- `remember: never commit without my explicit approval`
+- `remember: always use TypeScript for new projects`
+- `remember: prefer functional programming patterns`
+- `remember: include error handling in all API calls`
